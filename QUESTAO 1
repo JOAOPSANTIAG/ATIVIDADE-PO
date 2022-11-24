@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    
+    Animal um = new Animal ("gato", 7);
+    Cachorro dog = new Cachorro ("dog",70,"pastor alemão");
+    Peixe azul = new Peixe("dourado", 7,"agua");
+
+  
+    
+    Scanner entrada  = new Scanner(System.in);
+
+    String nome, tipoHabitat, raça;
+    double peso; 
+
+    System.out.println("Defina o nome do animal");
+    nome = entrada.next();
+    System.out.println("Defina o peso do animal");
+    peso = entrada.nextDouble();
+    System.out.println("Defina o Habitat do animal");
+    tipoHabitat = entrada.next();
+    System.out.println("Defina o Habitat do animal");
+    raça = entrada.next();
+
+    
+    
+    
+public String toString() 
+	return "o animal foi" + nome + "o peso definido foi" + peso + "tipo de habitat" + tipoHabitat + "e a raça" + raça;
+  
+  
+
+
+
+}
+}
